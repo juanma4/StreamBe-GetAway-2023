@@ -1,0 +1,661 @@
+/* Especificaciones globales */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    background-color:#d5c6e0 ;
+    padding: 1rem;
+    margin-bottom: 2rem;
+   
+}
+
+table, th, td {
+    margin-left: 3px;
+    margin-right: 3px;
+    }
+
+#sectores{
+    border: solid;
+    border-style:outset;
+    border-color:#d5c6e0;
+    background-color: #d5c6e0;
+    margin-bottom: 30px;
+}
+
+.contenedorTabla{
+    margin-left: 20rem;
+    background-color: rgb(99, 187, 175);
+    height: 30rem;
+}
+
+#Grilla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5c6e0;
+}
+
+.inputSolicitud{
+    display: flex;
+    justify-content: center;
+}
+
+#btn_guardar{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5c6e0;
+    border: solid;
+    border-style:outset;
+    border-color:#d5c6e0;
+    width: 10rem;
+    height: 3rem;
+}
+
+#btn_guardar:active{
+    background-color: #a79ab1;
+}
+
+img{ 
+    width: 200px;
+}
+
+a{
+    color: black;
+}
+
+#pagina{
+    background-color: #f5e6e8;
+}
+.centrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_index{
+    margin-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Index */
+
+#header_index{
+    position: sticky;
+    top: 0%;
+    background-color: #d5c6e0;
+}
+
+.logo_pagina{
+    width: 45%;
+}
+
+#nav_index{
+    justify-content: center;
+}
+
+#opcs_nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.item_nav_index{
+    margin: 0rem 5rem 0rem 5rem;
+}
+#container_index {
+    background-color: #f5e6e8;
+}
+
+#main_index{
+   margin-top: 7rem;
+   margin-left: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.titulo{
+    color: #192a51;
+    margin-left: 3rem;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#texto_main{
+    margin-bottom: 9rem;
+}
+#textoSegundario{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-left: 3rem;
+    
+}
+
+.texto_principal{
+    font-size: large;    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#img_main_index{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo_index{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #192a51;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    
+}
+#tarj_uno{
+    width: 500px;
+    background-color: #e4e1e4;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+}
+#img_tarjuno{
+    margin-top: 1rem;
+    width: 150px;
+}
+#titulo_tarjuno{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-top: 2rem;
+    
+}
+#texto_tarjuno{
+    text-align: center;
+    margin-top: 1rem;
+   
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 30rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;  
+}
+#tarj_dos{
+    width: 500px;
+    background-color: #e4e1e4;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+}
+
+#img_tarjdos{
+    margin-top: 1rem;
+    width: 170px;
+}
+#titulo_tarjdos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-top: 2rem;
+}
+#texto_tarjdos{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 30rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+#tarj_tres{
+    width: 500px;
+    background-color: #e4e1e4;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+}
+#img_tarjtres{
+    margin-top: 1rem;
+    width: 200px;
+}
+.titulo_tarjtres{
+    text-align: center;
+    margin-left: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-top: 1rem;
+}
+#texto_tarjtres{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 30rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+#cont_caracteristicas{
+
+    border-radius: 1rem;
+}
+#tarjs_caracteristicas{
+    display: flex;
+}
+
+
+.texto_fotos{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #192a51;
+    
+}
+
+
+
+
+
+#nosotros_index{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 75%;
+
+}
+
+/* Login */
+
+#login_bg {
+    background-color:#f5e6e8 ;
+}
+
+#container_longin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+    background-color:#f5e6e8 ;
+
+}
+
+
+#titulo_login{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #192a51;
+}
+
+#titulo_admin{
+    text-align: center;
+    padding-top: 2rem;
+    color: #192a51;
+   background-color:#f5e6e8 ;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2rem;
+}
+
+/* Vista empleado */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-area: 8px;
+    grid-gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+.informacion {
+    border-radius: 8px;
+    text-align: center;
+    grid-column: 1 / 6;
+    grid-row: 1;
+    background-color: #8adcbb;
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 3rem 0rem 3rem;
+}
+
+#tituloinformacion{
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .logoPersona{
+    margin-left: 0.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+  }
+
+
+.calendario {
+    margin: 1rem 3rem 1rem 3rem;
+    height: 20rem;
+    border-radius: 8px;
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row: 2 / 6;
+    background-color: #8adcbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedor_dias{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 3rem;
+}
+.dias {
+    border-radius: 8px;
+    grid-column: 4 / 6;
+    grid-row: 2 / 6;
+    background-color: #a9c9d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedorDias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.gastados{
+    border-radius: 18px;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 17rem;
+    height: 6rem;
+    background-color: #6ca4ba;
+} 
+.estadoSolicitud{
+    border-radius: 8px;
+    grid-column: 1 / 6;
+    grid-row: 6 / 7;
+    background-color: #99d2c9;
+    height: 30rem;
+    margin: 0rem 3rem 2rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.input_ing_fecha{
+    background-color: #5fb894;
+    color: #000000;
+}
+
+/* Vista administrador */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-area: 8px;
+    grid-gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+#filtrar_sectores{
+    border-radius: 8px;
+    text-align: center;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #a9c9d7;
+}
+#titulo_sectores{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.contenedor_peticion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.peticiones{
+    border-collapse: separate;
+    border-spacing: 1rem 0.5rem;
+}
+
+.btn_filtrado{
+    margin-bottom: 1rem;
+    border-color:#96d8f5;
+    background-color: transparent;
+    color: #000000;
+    padding: 0.5rem;
+}
+
+.btn_filtrado_seleccionado{
+    background-color: #28346f;
+    color: white;
+}
+
+
+#descripcion_administracion{
+    border-radius: 8px;
+    text-align: center;
+    grid-column: 2 / 6;
+    grid-row: 2 / 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: #99d2c9;
+}
+
+.titulo_peticion{
+    margin-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.aceptar_peticion{
+    border: none;
+    width: 4rem;
+    height: 1.5rem;
+    background-color: #77ff77;
+    margin-right: 1rem;
+}
+
+.peticion_aceptada{
+    border: #00ff00 solid 0.2rem;
+    background-color: #00ff00;
+    color: rgb(19, 116, 19);
+}
+
+.rechazar_peticion{
+    border: none;
+    width: 4rem;
+    height: 1.5rem;
+    background-color: #ff6a6a;
+}
+
+.peticion_rechazada{
+    border: red solid 0.2rem;
+    background-color: #ed3535;
+    color: #720202;
+}
+
+/* creo que esto ya no hace falta */
+.informacionSolicitud{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 4rem;
+    background-color: #afcca8;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_notificacion_solicitud{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+/* esto si */
+
+.titulo_pagina_admin{
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* css cerrar sesion */
+
+.header_vista{
+    display: flex;
+    align-items: center;
+}
+#cerrar_sesion{
+    margin-right: 3rem;
+}
+#cerrar_sesion:hover{
+    background-color: #857b8c;
+}
+
+
+.contenedor_solicitud{
+    margin-top: 0.5rem;
+    height: 3rem;
+    background-color: #598b772d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.formulario_peticion_vacaciones{
+    margin-top: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#palabra1{
+    margin-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#texto1{
+    margin-bottom: 0.5rem;
+  
+}
+#palabra3{
+    margin-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#texto3{
+    margin-bottom: 0.5rem;
+}
+#palabra4{
+    margin-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#texto4{
+    margin-bottom: 0.5rem;
+}
+.input_recibir_informacion{
+    background-color: #b0c4b1;
+    border-color:  #588157;
+}
+
+#input_fecha_hasta{
+   margin-bottom: 0.5rem;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input_fecha{
+    border: none;
+    height: 2rem;
+    background-color: #578a7652;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.btn_solicitud{
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    background-color: #578a7652;
+}
+
+.modificar_solicitud{
+    border: none;
+    width: 7rem;
+    height: 2rem;
+    background-color: #578a7652;
+}
+
+.alerta_modificacion_solicitud{
+    color: red
+}
+
+
+#prueba {
+    margin-bottom: 20rem;
+}
+
+#imgs_programa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgs_programa img {
+    width: 1200px;
+    margin-bottom:5rem;
+
+}
+
+#input_mostrar_id{
+    border:none;
+    background-color: transparent;
+    width:1rem;
+    color:transparent;
+  }
+
+
+#foto_nosotros {
+    width: 50rem;
+
+}

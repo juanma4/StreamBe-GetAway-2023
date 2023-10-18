@@ -1,0 +1,83 @@
+*{
+    margin: 0 auto;
+    font-family:Verdana;
+}
+body{
+    background-color: rgb(147, 206, 226);
+}
+
+header{
+    background-color: rgb(147, 206, 226);
+}
+
+input{
+    display: block;
+    margin-bottom: 6px;
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgb(93, 188, 248);
+    color: white;
+    border-color: lightskyblue;
+    display: block;
+    border-radius: 5px;
+    width:60%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.logo{
+    width:10%;
+    margin-left: 1em;
+}
+
+.marcoLogin{
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 15em;
+    border-radius: 5px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.marcoOpcion{
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 30em;
+    border-radius: 5px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.marcoSolicitud{
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 40em;
+    border-radius: 5px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.inputSolicitud{
+    display: flex;
+    width: 80%;
+    align-items: baseline;
+    
+}
+
+a{
+    text-decoration: none;
+}
+/*Colores:
+#119DA4
+#0C7489
+#13505B
+ */
+
+ 
